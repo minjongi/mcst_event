@@ -267,6 +267,13 @@
     <div class="popup_bg" onclick="popupClose()"></div>
     <div class="popup_contents">
         <div id="input">
+            <div style="position:absolute;z-index:100;top:25px;right:25px;cursor:pointer;" onclick="popupClose()">
+                <img src="/images/popup/close.png">
+            </div>
+            <img src="/images/popup/end.png?v=<?= $cacheVersion ?>">
+        </div>
+        <?php /*
+        <div id="input">
             <div class="abs9" onclick="popupClose()">
                 <img src="/images/popup/close.png">
             </div>
@@ -298,6 +305,7 @@
             <img src="/images/popup/2.png" style="display:block;">
             <img src="/images/popup/3.png?v=<?= $cacheVersion ?>" style="display:block;">
         </div>
+        */ ?>
     </div>
 </div>
 

@@ -155,6 +155,13 @@
             <div style="position:absolute;z-index:100;top:25px;right:25px;cursor:pointer;" onclick="popupClose()">
                 <img src="/images/popup/close.png">
             </div>
+            <img src="/images/popup/end.png?v=<?= $cacheVersion ?>">
+        </div>
+        <?php /*
+        <div id="input">
+            <div style="position:absolute;z-index:100;top:25px;right:25px;cursor:pointer;" onclick="popupClose()">
+                <img src="/images/popup/close.png">
+            </div>
             <div style="position: absolute;width: 85px;height: 35px;z-index: 100;top: 758px;left: 290px;cursor: pointer;" onclick="openPrivacy()"></div>
             <img src="/images/popup/1.png?v=<?= $cacheVersion ?>">
             <div style="position: absolute;z-index: 100;top: 500px;left: 243px;">
@@ -183,6 +190,7 @@
             <img src="/images/popup/2.png" style="display:block;">
             <img src="/images/popup/3.png?v=<?= $cacheVersion ?>" style="display:block;">
         </div>
+        */ ?>
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
